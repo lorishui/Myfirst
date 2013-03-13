@@ -16,5 +16,6 @@ int main()
 	boost::asio::deadline_timer t(io,boost::posix_time::seconds(5));
 	t.async_wait(&print);
 	io.run();
+	cout<<"rtetstsasd"<<endl;
 	system("pause");
 }
