@@ -37,6 +37,7 @@ void TestNumeric()
 	cout << (std::numeric_limits<long>::max)()<< endl;
 	cout << (std::numeric_limits<long>::min)() << endl;
 	cout << (std::numeric_limits<double>::max)() << endl;
+	cout << "hello world" << endl;
 
 	cout << numeric_limits<char>::is_signed << endl;
 	cout << offsetof(test,b) << endl;
